@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        display: ['"Baloo 2"', 'cursive'],
+        body: ['"Quicksand"', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -56,6 +60,17 @@ export default {
           "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
+        },
+        gift: {
+          1: "hsl(var(--gift-1))",
+          2: "hsl(var(--gift-2))",
+          3: "hsl(var(--gift-3))",
+          4: "hsl(var(--gift-4))",
+          5: "hsl(var(--gift-5))",
+          6: "hsl(var(--gift-6))",
+          7: "hsl(var(--gift-7))",
+          8: "hsl(var(--gift-8))",
+          9: "hsl(var(--gift-9))",
         },
       },
       borderRadius: {
